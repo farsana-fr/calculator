@@ -1,0 +1,30 @@
+.frame {
+  /* background-color: lightgrey; */
+  border-radius: 20px;
+}
+.btn {
+  padding: 10px 20px;
+}
+.del {
+  width: 100%;
+}
+@media (max-width: 300px) {
+  .frame {
+    margin-left: 0px;
+  }
+  .row {
+    padding: 0px;
+    margin: 0px;
+  }
+  .col-3 {
+    padding: 0px;
+    margin: 0px;
+  }
+  .btn {
+    font-size: xx-small;
+    padding: 10% 20%;
+  }
+  h1 {
+    font-size: smaller;
+  }
+}
