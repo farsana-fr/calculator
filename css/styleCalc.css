@@ -19,6 +19,7 @@
   background-color: rgb(226, 226, 158);
   color: black;
   transition: 0.5s;
+  padding-left: 20%;
 }
 .btn:hover {
   transform: translateY(1px);
