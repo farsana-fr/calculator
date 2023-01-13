@@ -1,30 +1,62 @@
-.frame {
-  /* background-color: lightgrey; */
-  border-radius: 20px;
+.mainBody {
+  background-color: aqua;
+  width: 25%;
+  border-radius: 5%;
+  box-shadow: 0px 0px 5px 8px lightblue inset;
 }
+.consol input {
+  box-shadow: 0px 0px 5px 5px gray inset;
+  background-color: rgb(118, 135, 118);
+}
+.consol input:focus {
+  background-color: rgb(118, 135, 118);
+}
+.solar {
+  background-color: black;
+}
+
 .btn {
-  padding: 10px 20px;
+  background-color: rgb(226, 226, 158);
+  color: black;
+  transition: 0.5s;
 }
-.del {
-  width: 100%;
+.btn:hover {
+  transform: translateY(1px);
 }
+@media (max-width: 1200px) {
+  .mainBody {
+    width: 35%;
+  }
+  .keys .btn {
+    width: 15%;
+  }
+}
+@media (max-width: 1000px) {
+  .mainBody {
+    width: 50%;
+  }
+  .keys .btn {
+    width: 15%;
+  }
+}
+@media (max-width: 500px) {
+  .mainBody {
+    width: 80%;
+  }
+  .keys .btn {
+    width: 15%;
+  }
+}
+
 @media (max-width: 300px) {
-  .frame {
-    margin-left: 0px;
+  .mainBody {
+    width: 90%;
+    padding: 1%;
   }
-  .row {
-    padding: 0px;
-    margin: 0px;
+  .container {
+    padding: 1%;
   }
-  .col-3 {
-    padding: 0px;
-    margin: 0px;
-  }
-  .btn {
-    font-size: xx-small;
-    padding: 10% 20%;
-  }
-  h1 {
-    font-size: smaller;
+  .keys .btn {
+    width: 15%;
   }
 }
