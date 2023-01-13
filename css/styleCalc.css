@@ -18,11 +18,11 @@
 .btn {
   background-color: rgb(226, 226, 158);
   color: black;
-  transition: 0.5s;
+  transition: 0.1s;
   padding-left: 20%;
 }
 .btn:hover {
-  transform: translateY(2%);
+  transform: translateY(5%);
 }
 @media (max-width: 1200px) {
   .mainBody {
