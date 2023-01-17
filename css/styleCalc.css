@@ -15,6 +15,7 @@
 }
 .solar {
   background-color: black;
+  text-align: right;
 }
 
 .buttonRow
@@ -58,7 +59,7 @@
     width: 95%;
     padding: 1%;
   }
-  .container {
+  .keys {
     padding: 1%;
   }
   .keys .btn
