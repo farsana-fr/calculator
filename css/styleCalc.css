@@ -1,6 +1,6 @@
 .mainBody {
   background-color: aqua;
-  width: 25%;
+  width: 30%;
   border-radius: 5%;
   box-shadow: 0px 0px 5px 8px lightblue inset;
 }
@@ -15,49 +15,48 @@
   background-color: black;
 }
 
+.buttonRow
+{
+  display: flex;
+  justify-content: space-between;
+}
 .btn {
   background-color: rgb(226, 226, 158);
   color: black;
   transition: 0.1s;
-  padding-left: 20%;
+
 }
 .btn:hover {
   transform: translateY(5%);
 }
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
   .mainBody {
     width: 35%;
   }
-  .keys .btn {
-    width: 15%;
-  }
+
 }
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .mainBody {
     width: 50%;
   }
-  .keys .btn {
-    width: 15%;
-  }
+
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .mainBody {
-    width: 80%;
-  }
-  .keys .btn {
-    width: 15%;
+    width: 70%;
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .mainBody {
-    width: 90%;
+    width: 95%;
     padding: 1%;
   }
   .container {
     padding: 1%;
   }
-  .keys .btn {
-    width: 15%;
+  .keys .btn
+  {
+    padding: 5% 10%;
   }
 }
