@@ -178,11 +178,11 @@
         </div>
         <div class="btn-group w-25">
           <button
-            onclick="result()"
+            onclick="display('^')"
             type="submit"
             class="btn border border-dark col-3 btn-outline-warning"
           >
-            =
+            x<sup>y</sup>
           </button>
         </div>
         <div class="btn-group w-25">
@@ -196,22 +196,31 @@
         </div>
       </div>
       <div class="container keys row mt-2">
-        <div class="btn-group w-50">
+        <div class="btn-group w-25">
           <button
             onclick="clearDisplay()"
             type="button"
-            class="border border-dark col-6 btn btn-outline-warning"
+            class="border border-dark  btn btn-outline-warning"
           >
             AC
           </button>
         </div>
-        <div class="btn-group w-50">
+        <div class="btn-group w-25">
           <button
             onclick="backspace()"
             type="button"
-            class="border border-dark col-6 btn  btn-outline-warning"
+            class="border border-dark  btn  btn-outline-warning"
           >
             <i class="fa-solid fa-delete-left"></i>
+          </button>
+        </div>
+        <div class="btn-group w-50">
+          <button
+            onclick="result()"
+            type="button"
+            class="border border-dark  btn btn-warning"
+          >
+            =
           </button>
         </div>
       </div>
